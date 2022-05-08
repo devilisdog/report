@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Button, Table, Form, Select, Input } from 'antd'
 import request from '@/utils/request'
 
-export default function SalesContract(props) {
+export default function CarSalesNumber(props) {
     const [form] = Form.useForm()
     const [dataSource, setDataSource] = useState([])
     const [page, setPage] = useState(1)

@@ -55,7 +55,7 @@ export default defineConfig({
                         {
                             path: '/sales-contract',
                             name: '销售合同',
-                            icon: 'crown',
+                            // icon: 'crown',
                             component: './salesContract',
                             // authority: ['admin'],
                             // routes: [
@@ -68,10 +68,54 @@ export default defineConfig({
                             //   },
                             // ],
                         },
-                        // {
-                        //     path: '/orderList/edit/:id',
-                        //     component: './orderList/components/edit',
-                        // },
+                        {
+                            path: '/brand-gross-profit',
+                            name: '单车毛利',
+                            // icon: 'crown',
+                            component: './brandGrossProfit',
+                        },
+                        {
+                            path: '/sales-daily',
+                            name: '销售日报',
+                            // icon: 'crown',
+                            component: './salesDaily',
+                        },
+                        {
+                            path: '/consultant-ability',
+                            name: '顾问战斗力',
+                            // icon: 'crown',
+                            component: './consultantAbility',
+                        },
+                        {
+                            path: '/car-model-gross-profit',
+                            name: '车型毛利',
+                            // icon: 'crown',
+                            component: './carModelGrossProfit',
+                        },
+                        {
+                            path: '/car-sales-number',
+                            name: '整车销售数量',
+                            // icon: 'crown',
+                            component: './carSalesNumber',
+                        },
+                        {
+                            path: '/after-sales-gross-profit',
+                            name: '售后毛利',
+                            // icon: 'crown',
+                            component: './afterSalesGrossProfit',
+                        },
+                        {
+                            path: '/repair-parts-turnover',
+                            name: '维修配件周转率',
+                            // icon: 'crown',
+                            component: './repairPartsTurnover',
+                        },
+                        {
+                            path: '/after-sale-accessories-inventory-chain-ratio',
+                            name: '售后产值及配件库存统计环比',
+                            // icon: 'crown',
+                            component: './afterSaleAccessoriesInventoryChainRatio',
+                        },
 
                         {
                             component: './404',
